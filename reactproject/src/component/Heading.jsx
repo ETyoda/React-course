@@ -1,3 +1,4 @@
 function Heading(){
-    return <H1>Hello Everyone</H1>
+    return <h1>Hello Everyone</h1>
 }
+export default Heading
