@@ -1,13 +1,13 @@
  
 import './App.css'
-import Button from './component/button'
-import Heading from './component/Heading'
+import Button from './component/Button/Button'
+import Heading from './component/Heading/Heading'
 function App() {
 
   return (
 <div>
   <Heading
-  l/>
+  label=" know"/>
   <Button/>
    
   
