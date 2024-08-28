@@ -1,5 +1,10 @@
 import styles from './Heading.module.css'
+ 
 function Heading({label}){
-    return <h1 className='add-name'>Hello Everyone{label}</h1>
+    return <div>
+            <h1 className={$`{styles["title"]}' bg-green'`}>Hello Everyone{label}</h1>
+            </div>
+    
+    
 }
 export default Heading
